@@ -29,7 +29,7 @@ const Btn = styled.a`
 const Dbutton = ({gif, download}) => {
   return (
     <Btn href={gif} onClick={e => download(e)} >
-      Download</Btn>
+      download</Btn>
   )
 }
 

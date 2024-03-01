@@ -22,7 +22,7 @@ transition: all 0.2s ease-in-out;
 
 const Button = ({convertToGif}) => {
   return (
-    <Btn onClick={convertToGif} >Convert</Btn>
+    <Btn onClick={convertToGif} >convert</Btn>
   )
 }
 

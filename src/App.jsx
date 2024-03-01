@@ -66,7 +66,7 @@ function App() {
       {video && <Inputvideo video={video} />}
       <Inputfile setVideo={setVideo} />
       <Button convertToGif={convertToGif} />
-      <h1>Result</h1>
+      {gif && <h1>Result</h1>}
       {gif && <Resultimg gif={gif} />}
       {gif && <Dbutton gif={gif} download={download} />}
     </div>
